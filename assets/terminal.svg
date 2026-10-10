@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="556" viewBox="0 0 900 556" role="img" aria-label="dotnet run — about Egor Tukov">
+  <title>dotnet run — about Egor Tukov</title>
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#140d33"/>
+      <stop offset="1" stop-color="#0a0718"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#512bd4"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <style>
+      @keyframes type { from { transform: translateX(0) } to { transform: translateX(410.3px) } } .typer { transform: translateX(410.3px); animation: type 2.25s steps(45) 0.50s both; }
+      .ln { animation: show .2s ease-out both; }
+      @keyframes show { from { opacity: 0 } to { opacity: 1 } }
+      text { font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Menlo, Consolas, monospace; font-size: 15px; white-space: pre; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { fill-opacity: 0 } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="898" height="554" rx="14" fill="url(#tbg)" stroke="url(#edge)" stroke-opacity="0.8"/>
+  <path d="M1 15 a14 14 0 0 1 14 -14 H885 a14 14 0 0 1 14 14 V40 H1 Z" fill="#512bd4" fill-opacity="0.22"/>
+  <g transform="translate(780 12)" fill="none" stroke="#c9c3ef" stroke-width="1.4">
+    <path d="M0 8 H12"/><rect x="40" y="2" width="12" height="12"/><path d="M80 2 L92 14 M92 2 L80 14"/>
+  </g>
+  <text x="26" y="26" fill="#e9e4ff" style="font-size:13px">▶  Terminal — EgorTukov.Api</text>
+    <text x="26" y="72"><tspan fill="#3ddc97">egor</tspan><tspan fill="#9a8fd1">@</tspan><tspan fill="#a78bfa">backend</tspan><tspan fill="#9a8fd1"> ~ </tspan><tspan fill="#d97757">❯ </tspan></text><text x="179.5" y="72" fill="#ffffff">dotnet run --project EgorTukov.Api -c Release</text><svg x="179.5" y="54" width="410.3" height="24"><rect class="typer" width="410.3" height="24" fill="#140d33"/></svg>
+  <text class="ln" x="26" y="96" style="animation-delay:3.15s" xml:space="preserve"><tspan fill="#9a8fd1">  Building...</tspan></text>
+  <text class="ln" x="26" y="120" style="animation-delay:4.05s" xml:space="preserve"><tspan fill="#3ddc97">  Build succeeded.</tspan><tspan fill="#9a8fd1">  0 Warning(s)  0 Error(s)</tspan></text>
+  <text class="ln" x="26" y="168" style="animation-delay:4.55s" xml:space="preserve"><tspan fill="#3ddc97">info</tspan><tspan fill="#9a8fd1">: Microsoft.Hosting.Lifetime[14]</tspan></text>
+  <text class="ln" x="26" y="192" style="animation-delay:4.55s" xml:space="preserve">      <tspan fill="#c9c3ef">Now listening on: </tspan><tspan fill="#a78bfa">https://github.com/egortukov</tspan></text>
+  <text class="ln" x="26" y="216" style="animation-delay:4.71s" xml:space="preserve"><tspan fill="#3ddc97">info</tspan><tspan fill="#9a8fd1">: Profile.Role[0]</tspan></text>
+  <text class="ln" x="26" y="240" style="animation-delay:4.71s" xml:space="preserve">      <tspan fill="#ffffff">.NET Backend Engineer — APIs, microservices, distributed systems</tspan></text>
+  <text class="ln" x="26" y="264" style="animation-delay:4.87s" xml:space="preserve"><tspan fill="#3ddc97">info</tspan><tspan fill="#9a8fd1">: Profile.Stack[0]</tspan></text>
+  <text class="ln" x="26" y="288" style="animation-delay:4.87s" xml:space="preserve">      <tspan fill="#c9c3ef">C# · ASP.NET Core · EF Core · PostgreSQL · Redis · RabbitMQ · Kafka</tspan></text>
+  <text class="ln" x="26" y="312" style="animation-delay:5.03s" xml:space="preserve"><tspan fill="#3ddc97">info</tspan><tspan fill="#9a8fd1">: Profile.Architecture[0]</tspan></text>
+  <text class="ln" x="26" y="336" style="animation-delay:5.03s" xml:space="preserve">      <tspan fill="#c9c3ef">Clean Architecture · DDD · CQRS · Event-driven · Outbox/Saga</tspan></text>
+  <text class="ln" x="26" y="360" style="animation-delay:5.19s" xml:space="preserve"><tspan fill="#3ddc97">info</tspan><tspan fill="#9a8fd1">: Profile.Quality[0]</tspan></text>
+  <text class="ln" x="26" y="384" style="animation-delay:5.19s" xml:space="preserve">      <tspan fill="#c9c3ef">xUnit · Testcontainers · integration tests · CI/CD on every push</tspan></text>
+  <text class="ln" x="26" y="408" style="animation-delay:5.35s" xml:space="preserve"><tspan fill="#60a5fa">dbug</tspan><tspan fill="#9a8fd1">: Profile.AI[0]</tspan></text>
+  <text class="ln" x="26" y="432" style="animation-delay:5.35s" xml:space="preserve">      <tspan fill="#ffd9cc">Claude Code agents write the boilerplate — I own design &amp; review</tspan></text>
+  <text class="ln" x="26" y="456" style="animation-delay:5.51s" xml:space="preserve"><tspan fill="#fbbf24">warn</tspan><tspan fill="#9a8fd1">: Profile.Coffee[0]</tspan></text>
+  <text class="ln" x="26" y="480" style="animation-delay:5.51s" xml:space="preserve">      <tspan fill="#fde68a">Caffeine level low. Deploying anyway — all tests are green ✓</tspan></text>
+  <text class="ln" x="26" y="504" style="animation-delay:6.17s" xml:space="preserve"><tspan fill="#3ddc97">info</tspan><tspan fill="#9a8fd1">: Microsoft.Hosting.Lifetime[0]</tspan></text>
+  <text class="ln" x="26" y="528" style="animation-delay:6.17s" xml:space="preserve">      <tspan fill="#3ddc97">Application started. Press Ctrl+C to shut down.</tspan></text>
+  <g class="ln" style="animation-delay:6.33s"><rect class="cursor" x="26" y="539" width="9.0" height="17" fill="#a78bfa"/></g>
+</svg>

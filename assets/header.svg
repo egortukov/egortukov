@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Egor Tukov — .NET Backend Engineer, AI-native">
+  <title>Egor Tukov — .NET Backend Engineer, AI-native</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0718"/>
+      <stop offset="1" stop-color="#120b2e"/>
+    </linearGradient>
+    <linearGradient id="name" x1="60" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#c4b5fd"/>
+      <stop offset="0.6" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-580 0; 580 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#512bd4"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#a78bfa" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="420" rx="24"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Menlo, Consolas, monospace; }
+
+      .a1 { animation: float1 16s ease-in-out infinite alternate; }
+      .a2 { animation: float2 20s ease-in-out infinite alternate; }
+      @keyframes float1 { to { transform: translate(160px, 70px) } }
+      @keyframes float2 { to { transform: translate(-200px, -60px) } }
+
+      
+      .node rect { fill: #160f36; stroke: #7c5cff; stroke-opacity: .6; }
+      .node text { font-size: 13px; fill: #e9e4ff; }
+      .node .sub { font-size: 10px; fill: #9a8fd1; }
+      .db rect { stroke: #3ddc97; }
+      .mq rect { stroke: #f59e0b; }
+      .cache rect { stroke: #f87171; }
+
+      .wire { fill: none; stroke: #7c5cff; stroke-opacity: .35; stroke-width: 1.5; }
+      .wire.live { stroke-dasharray: 3 7; animation: dash 1.6s linear infinite; stroke-opacity: .6; }
+      @keyframes dash { to { stroke-dashoffset: -40 } }
+
+      .health { animation: health 2s ease-in-out infinite; }
+      @keyframes health { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+
+      .ok { opacity: 0; animation: ok 4s ease-out infinite; }
+      @keyframes ok { 0%,55% { opacity: 0; transform: translateY(6px) } 62% { opacity: 1; transform: none } 85% { opacity: 1 } 100% { opacity: 0; transform: translateY(-6px) } }
+
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity="0.8">
+      <circle class="a1" cx="180" cy="90" r="190" fill="#512bd4"/>
+      <circle class="a2" cx="1020" cy="340" r="200" fill="#6d28d9"/>
+      <circle cx="760" cy="40" r="110" fill="#0e7490" opacity="0.55"/>
+    </g>
+    <rect width="1200" height="420" fill="url(#dots)"/>
+
+    <!-- left: identity -->
+    <text class="mono" x="60" y="104" font-size="15" fill="#a78bfa" letter-spacing="2">// Hello, World! — Привет, я</text>
+    <text class="sans" x="56" y="182" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#name)">Egor Tukov</text>
+    <text class="sans" x="60" y="228" font-size="26" font-weight="600" fill="#e9e4ff">.NET Backend Engineer <tspan fill="#a78bfa">·</tspan> AI-native</text>
+    <text class="mono" x="60" y="264" font-size="16" fill="#9a8fd1">builds APIs that scale<tspan fill="#a78bfa">;</tspan> ships with Claude Code<tspan class="cursor" fill="#a78bfa">▍</tspan></text>
+
+    <g class="mono" font-size="14">
+      <g transform="translate(60 296)"><rect width="56" height="30" rx="8" fill="#512bd4"/><text x="28" y="20" text-anchor="middle" fill="#fff" font-weight="700">C#</text></g>
+      <g transform="translate(124 296)"><rect width="134" height="30" rx="8" fill="#512bd4" fill-opacity=".25" stroke="#a78bfa" stroke-opacity=".6"/><text x="67" y="20" text-anchor="middle" fill="#e9e4ff">ASP.NET Core</text></g>
+      <g transform="translate(266 296)"><rect width="126" height="30" rx="8" fill="#512bd4" fill-opacity=".25" stroke="#a78bfa" stroke-opacity=".6"/><text x="63" y="20" text-anchor="middle" fill="#e9e4ff">Microservices</text></g>
+      <g transform="translate(400 296)"><rect width="128" height="30" rx="8" fill="#d97757" fill-opacity=".2" stroke="#d97757" stroke-opacity=".8"/><text x="64" y="20" text-anchor="middle" fill="#ffd9cc">✳ Claude Code</text></g>
+    </g>
+
+    <!-- right: live architecture -->
+    <g transform="translate(0 10)">
+      <!-- wires -->
+      <path id="w1" class="wire live" d="M672 200 H730"/>
+      <path id="w2" class="wire live" d="M818 200 C850 200 850 110 880 110"/>
+      <path id="w3" class="wire live" d="M818 200 H880"/>
+      <path id="w4" class="wire live" d="M818 200 C850 200 850 290 880 290"/>
+      <path id="w5" class="wire" d="M980 110 H1040"/>
+      <path id="w6" class="wire" d="M980 200 C1010 200 1010 110 1040 110"/>
+      <path id="w7" class="wire" d="M980 200 C1010 200 1010 290 1040 290"/>
+      <path id="w8" class="wire" d="M980 290 H1040"/>
+      <path id="w9" class="wire" d="M980 110 C1010 110 1010 200 1040 200"/>
+
+      <!-- packets -->
+      <g filter="url(#glow)">
+        <circle r="4" fill="#c4b5fd"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.3;1" calcMode="linear" path="M640 200 H730 H818 C850 200 850 110 880 110 H980 H1040"/></circle>
+        <circle r="4" fill="#3ddc97"><animateMotion dur="4s" begin="1.3s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.35;1" calcMode="linear" path="M640 200 H730 H818 H880 H980 C1010 200 1010 110 1040 110"/></circle>
+        <circle r="4" fill="#fbbf24"><animateMotion dur="4s" begin="2.6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.35;1" calcMode="linear" path="M640 200 H730 H818 C850 200 850 290 880 290 H980 H1040"/></circle>
+        <circle r="3" fill="#f87171"><animateMotion dur="2s" begin=".6s" repeatCount="indefinite" path="M980 110 C1010 110 1010 200 1040 200"/></circle>
+        <circle r="3" fill="#fbbf24"><animateMotion dur="2.4s" begin="1.8s" repeatCount="indefinite" path="M980 200 C1010 200 1010 290 1040 290"/></circle>
+      </g>
+
+      <!-- nodes -->
+      <g class="mono">
+        <g class="node"><rect x="600" y="180" width="72" height="40" rx="10"/><text x="636" y="205" text-anchor="middle">client</text></g>
+        <g class="node"><rect x="730" y="176" width="88" height="48" rx="10" fill-opacity="1" style="stroke:#a78bfa;stroke-opacity:1"/><text x="774" y="198" text-anchor="middle">gateway</text><text class="sub" x="774" y="213" text-anchor="middle">YARP</text></g>
+
+        <g class="node"><rect x="880" y="88" width="100" height="44" rx="10"/><text x="930" y="108" text-anchor="middle">identity</text><text class="sub" x="930" y="123" text-anchor="middle">JWT · OAuth</text><circle class="health" cx="970" cy="98" r="3.5" fill="#3ddc97"/></g>
+        <g class="node"><rect x="880" y="178" width="100" height="44" rx="10"/><text x="930" y="198" text-anchor="middle">orders</text><text class="sub" x="930" y="213" text-anchor="middle">CQRS · MediatR</text><circle class="health" cx="970" cy="188" r="3.5" fill="#3ddc97" style="animation-delay:.6s"/></g>
+        <g class="node"><rect x="880" y="268" width="100" height="44" rx="10"/><text x="930" y="288" text-anchor="middle">payments</text><text class="sub" x="930" y="303" text-anchor="middle">Outbox · Saga</text><circle class="health" cx="970" cy="278" r="3.5" fill="#3ddc97" style="animation-delay:1.2s"/></g>
+
+        <g class="node db"><rect x="1040" y="90" width="112" height="40" rx="10"/><text x="1096" y="115" text-anchor="middle">PostgreSQL</text></g>
+        <g class="node cache"><rect x="1040" y="180" width="112" height="40" rx="10"/><text x="1096" y="205" text-anchor="middle">Redis</text></g>
+        <g class="node mq"><rect x="1040" y="270" width="112" height="40" rx="10"/><text x="1096" y="295" text-anchor="middle">RabbitMQ</text></g>
+      </g>
+
+      <g class="mono" font-size="11">
+        <text class="ok" x="600" y="160" fill="#3ddc97">200 OK · 12ms</text>
+        <text class="ok" x="600" y="160" fill="#3ddc97" style="animation-delay:1.3s">201 Created · 18ms</text>
+        <text class="ok" x="600" y="160" fill="#3ddc97" style="animation-delay:2.6s">202 Accepted · 9ms</text>
+      </g>
+      <text class="mono" x="600" y="352" font-size="11" fill="#9a8fd1" letter-spacing="1">GET /health → Healthy · 3/3 services up</text>
+    </g>
+
+    <rect x="0" y="414" width="1200" height="6" fill="url(#accent)"/>
+    <rect x="0.5" y="0.5" width="1199" height="419" rx="24" fill="none" stroke="#a78bfa" stroke-opacity="0.35"/>
+  </g>
+</svg>
